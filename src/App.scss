@@ -1,0 +1,49 @@
+// Dark Mode Color Palette for SCSS
+
+$color-primary: #90caf9; // Light Blue (primary)
+$color-primary-dark: #42a5f5; // Blue for primary dark
+
+$color-secondary: #f48fb1; // Light Pink (secondary)
+$color-secondary-dark: #f06292; // Pink for secondary dark
+
+// Background and Surface colors
+$color-background: #121212; // Main background color (very dark gray)
+$color-surface: #1e1e1e; // Surface elements background color (darker gray)
+
+// Accent Colors
+$color-accent: #ff4081; // Bright pink for accent elements like buttons or links
+$color-accent-dark: #ff79b0; // Lighter pink for hovered accent elements
+
+// Text Colors
+$color-text-primary: #ffffff; // White for main text
+$color-text-secondary: #b0bec5; // Light gray for secondary text
+$color-text-disabled: #757575; // Gray for disabled or hint text
+
+// Divider and Border Colors
+$color-divider: #2c2c2c; // Dark divider/border color
+$color-border: #424242; // Slightly lighter gray for borders
+
+// Hover/Focus States
+$color-hover: #333333; // Darker color for hover effects
+$color-focus: #555555; // Focus ring color
+
+// Shadow Color for Elevated Surfaces
+$color-shadow: rgba(0, 0, 0, 0.5); // Shadow color for elevated surfaces
+// Text Fonts
+$text-font: "Roboto Mono", monospace;
+
+// Example usage:
+body {
+  background-color: $color-background;
+  color: $color-text-primary;
+  font-family: $text-font;
+}
+
+.button {
+  background-color: $color-accent;
+  color: $color-text-primary;
+
+  &:hover {
+    background-color: $color-accent-dark;
+  }
+}
